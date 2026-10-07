@@ -1,0 +1,20 @@
+# secrets: never commit API keys
+.env
+*.key
+ 
+# market data: large files, vendor terms. Recreate them by running data.py and switch_vix.py
+spy_1min.csv
+cache_1min/
+vix_daily.csv
+ 
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+ 
+# editors and operating systems
+.idea/
+.vscode/
+.DS_Store
