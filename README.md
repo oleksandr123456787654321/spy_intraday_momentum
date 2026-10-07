@@ -178,6 +178,9 @@ Colors: Baseline A black, Band+VWAP green, Band+VWAP Dyn blue, SPY red, Switch V
 | Switch VIX Dyn | 0.73 | 12.6% / 17.4% | 0.21 | 3.4% / 16.5% |
 | SPY buy & hold | 0.62 | 11.0% / 17.9% | 1.31 | 20.2% / 15.4% |
 
+![Equity curves](results_switch_vix/equity_curves_switch_vix.png)
+
+![Sharpe, annualized return and volatility, train vs test](results_switch_vix/metrics_comparison_switch_vix.png)
 (Returns and volatility are annualized.) What I take from this:
 
 - In the train period the tight VWAP stop reproduces the paper's pattern: higher Sharpe, smaller drawdown,
