@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+alpaca-py     # only needed by data.py
+yfinance      # only needed by switch_vix.py
